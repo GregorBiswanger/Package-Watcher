@@ -11,7 +11,8 @@
 		"Other"
 	],
 	"activationEvents": [
-		"workspaceContains:package.json"
+		"workspaceContains:package.json",
+		"workspaceContains:bower.json"
 	],
 	"main": "./out/src/extension",
 	"scripts": {
