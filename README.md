@@ -1,13 +1,17 @@
-# README
-## This is the README for your extension "package-watcher" 
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Package watcher for Visual Studio Code
+## Installation 
+You can browse and install extensions from within VS Code. Press `Ctrl+P` and narrow down the list commands by typing `ext install package-watcher`.
 
-* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
+### Usage
+Any time you save either package.json or bower.json the packages will be installed/uninstalled automatically in the background.
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+![package-watcher Screenshot](https://github.com/GregorBiswanger/Package-Watcher/blob/master/images/package-watcher.gif?raw=true)
 
-** Enjoy!**
+### Contributing
+Feel free to submit a pull request if you find any bugs (to see a list of active issues, visit the [Issues section](https://github.com/GregorBiswanger/Package-Watcher/issues)).
+Please make sure all commits are properly documented.
+
+### License
+MIT-licensed
+
+** Enjoy! **
